@@ -6,10 +6,10 @@ In this repo you can find a Hello world application writen in .NET 5 that also i
 
 You required to create a new project in Azure DevOps and use it to create a full CI/CD pipeline.
 The pipeline should include:
-- build the application.
-- run the unit test (continue only if all tests have passed).
-- create a docker image of the appcalition.
-- deploy it to Kubernetes or any other docker container.  
+- Build the application.
+- Run the unit test (continue only if all tests have passed).
+- Create a docker image of the appcalition.
+- Deploy it to Kubernetes or any other docker container.  
 
  * you can use the following these docker images:
 mcr.microsoft.com/dotnet/sdk:5.0-alpine to build the app and mcr.microsoft.com/dotnet/aspnet:5.0-alpine to run the app on.
