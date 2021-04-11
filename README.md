@@ -4,9 +4,10 @@ This is the hiring assignment for Devops candidates at 888\Sparkware. It’s int
 # How to answer this assignment
 In this repo you can find a Hello world application writen in .NET 5 that also includes UnitTest Porject.
 
-You required to create a new project in Azure DevOps and use it to:
+You required to create a new project in Azure DevOps and use it to create a full CI/CD pipeline.
+The pipeline should include:
 - build the application.
-- run the unit test and continue only if all tests have passed.
+- run the unit test (continue only if all tests have passed).
 - create a docker image of the appcalition.
 - deploy it to Kubernetes or any other docker container.  
 
