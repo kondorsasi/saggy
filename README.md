@@ -11,6 +11,6 @@ The pipeline should include:
 - Create a docker image of the appcalition.
 - Deploy it to Kubernetes or any other docker container.  
 
-*you can use the following these docker images:
+*You can use the following these docker images:
 mcr.microsoft.com/dotnet/sdk:5.0-alpine to build the app and mcr.microsoft.com/dotnet/aspnet:5.0-alpine to run the app on.
 
